@@ -1,6 +1,6 @@
 class StudentController < ApplicationController
 
-    #index action
+    #index action - list all students
     def index 
       @students = Student.all
     end 
